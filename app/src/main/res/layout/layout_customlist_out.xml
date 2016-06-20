@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="인하대 농구코트"
+                android:id="@+id/Match_Out_CustomList_CourtName"
+                android:layout_weight="1"
+                android:textColor="@color/Black"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="인천 남구"
+                android:id="@+id/Match_Out_CustomList_Address"
+                android:layout_weight="1"
+                android:textColor="@color/Black"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:id="@+id/Match_Out_CustomList_Player"
+            android:layout_weight="2"
+            android:gravity="center" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Match_Out_CustomList_NewSpeed"
+            android:layout_weight="2"
+            android:src="@drawable/comment"
+            android:background="@color/White"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Match_Out_CustomList_Infomation"
+            android:layout_weight="2"
+            android:src="@drawable/infomation"
+            android:background="@color/White"/>
+
+    </LinearLayout>
+</LinearLayout>

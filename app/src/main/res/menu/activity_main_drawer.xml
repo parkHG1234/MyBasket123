@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Nav_UserInfo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="사용자 정보" />
+        <item
+            android:id="@+id/Nav_TeamMake"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="팀 만들기" />
+        <item
+            android:id="@+id/Nav_TeamManager"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="팀 관리" />
+        <item
+            android:id="@+id/Nav_TeamInfo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="팀 정보" />
+        <item
+            android:id="@+id/Nav_LogOut"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="로그아웃" />
+        <item
+            android:id="@+id/Nav_TeamIntro"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="전국 팀 정보" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

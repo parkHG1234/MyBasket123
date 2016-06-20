@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BasketProject.iml" filepath="$PROJECT_DIR$/BasketProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-mime4j-0.6/apache-mime4j-0.6.iml" filepath="$PROJECT_DIR$/apache-mime4j-0.6/apache-mime4j-0.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpmime-4.0.3/httpmime-4.0.3.iml" filepath="$PROJECT_DIR$/httpmime-4.0.3/httpmime-4.0.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nmaps/nmaps.iml" filepath="$PROJECT_DIR$/nmaps/nmaps.iml" />
+    </modules>
+  </component>
+</project>

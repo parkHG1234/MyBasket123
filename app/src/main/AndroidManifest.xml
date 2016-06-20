@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.basketproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Join_Phone"></activity>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Join_Personal1"></activity>
+        <activity android:name=".Join_Personal2"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Navigation_UserInfo"></activity>
+        <activity android:name=".Navigation_TeamManager"></activity>
+        <activity android:name=".Navigation_TeamManager_TeamIntro"></activity>
+        <activity android:name=".Navigation_TeamManager_TeamMake1"></activity>
+        <activity android:name=".Navigation_TeamManager_TeamMake2"></activity>
+        <activity android:name=".Navigation_TeamManager_TeamMake3"></activity>
+        <activity android:name=".Navigation_TeamInfo"></activity>
+        <activity android:name=".Navigation_TeamIntro"></activity>
+        <activity android:name=".Navigation_TeamIntro_Focus"></activity>
+        <activity android:name=".test"></activity>
+        <activity android:name=".test1"></activity>
+        <activity android:name=".TeamInfo"></activity>
+        <activity android:name=".Match_Out_NewSpeed"></activity>
+        <activity android:name=".CourtInfo"></activity>
+        <activity android:name=".CourtInfo_ImageFoucs"></activity>
+        <activity android:name=".Navigation_TeamManager_Schedule"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e0d97d80213eb637ac64cdec1793353954b969c5" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+</manifest>

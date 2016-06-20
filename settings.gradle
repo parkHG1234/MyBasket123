@@ -1,0 +1,1 @@
+include ':app', ':apache-mime4j-0.6', ':httpmime-4.0.3', ':nmaps'
