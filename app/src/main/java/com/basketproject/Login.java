@@ -44,6 +44,7 @@ public class Login extends AppCompatActivity{
     private static final String TWITTER_KEY = "VUj5qJgHwKvnxLTPVrMqcKYzS";
     private static final String TWITTER_SECRET = "9xVLDFkAXqLgFeVivctLeuuXemrNQGT0Z4eDVMhu11dkrzapaV";
 
+
     EditText Login_EditText_Phone,Login_EditText_Password;
     Button Login_Button_Login,Login_Button_Join;
     String[][] parsedData;
