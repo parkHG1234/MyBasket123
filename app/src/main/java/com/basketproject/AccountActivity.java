@@ -138,7 +138,7 @@ public class AccountActivity extends Activity {
 	File saveFile=new File("/mnt/sdcard/image01.jpg");   // 파일이 저장되는 경로 지정
 
 	public void doSaveFile() {
-
+//ggg
 		OutputStream out = null;
 		try {
 			saveFile.createNewFile();
