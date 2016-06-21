@@ -8,7 +8,7 @@ import android.app.Activity;
 public class Match_Out_CustomList_MyData {
     private String CourtName;
     private String CourtAddress;
-    private String CourtPlayer;
+    private String CourtPlayer;//ghj
     public Match_Out_CustomList_MyData(String CourtName,String CourtAddress,String CourtPlayer){
         this.CourtName = CourtName;
         this.CourtAddress= CourtAddress;
